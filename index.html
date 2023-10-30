@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學校傑出作品欣賞</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1><a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong> <h3 class="animate-charcter"> 學生作品欣賞!!</h3></strong></h1>
+        </section>
+    <section class="link" >
+        <div class="dropdown">
+        <li><button class="dropbtn">最新消息</a></button></li>
+        <div class="dropdown-content">
+            <a href="List of new works.html">新作品列表</a>
+          </div>
+    </div>
+
+
+    <div class="dropdown">
+        <li><button class="dropbtn">主頁</a></button></li>
+        <div class="dropdown-content">
+            <a href="index.html">學校傑出作品欣賞</a>
+          </div>
+    </div>
+
+    <div class="dropdown">
+        <li><button class="dropbtn">作品資訊</a></button></li>
+        <div class="dropdown-content">
+            <a href="Artworks ranking.html">作品排行榜</a>
+            <a href="Student testimonials.html">學生感言</a>
+            <a href="Artworks album.html">作品相簿</a>
+          </div>
+    </div>
+
+    <div class="dropdown">
+        <li><button class="dropbtn">登錄/註冊</a></button></li>  
+        <div class="dropdown-content">
+            <a href="Login account.html">登錄帳戶</a>
+            <a href="Register.html">進行註冊</a>
+          </div>
+    </div>
+
+        <div class="dropdown">
+        <li><button class="dropbtn">About Us</a></button></li>
+        <div class="dropdown-content">
+        <a href="about us.html">關於我們</a>
+        <a href="common problem.html">常見問題</a>
+        <a href="contact us.html">聯繫我們</a>
+        </div>
+        <div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/horses-2904536_1280.jpg" style="width:50%">
+  <div class="text">Caption one</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/mosaic-200864_1280.jpg" style="width:50%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/texture-1909992_1280.jpg" style="width:50%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    </section>
+  </div>
+    </ul> 
+    </nav>
+        </main>
+    </header>
+     <footer>
+    <blockquote>如想獲得最佳的視覺效果，請以 IE 7.0 或以上 的瀏覽器及屏幕解像度 1024 x 768 瀏覽。</blockquote>
+    </footer>
+</body>
+</html>
