@@ -1,42 +1,38 @@
 <!DOCTYPE html>
+<html lang="zh-HK"></html>
 <html>
-
 <head>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;}
-</style>
+<title>List of new works</title>
 </head>
-
 <body>
 
-<h2 class="w3-center">Automatic Slideshow</h2>
-
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="images/pngegg.png" style="width:100%">
-  <img class="mySlides" src="images/Shop.png" style="width:100%">
-  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+  <div class="row">
+    <div class="Description-col">
+      <h2>
+        Our Website Description
+      </h2>
+<p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+</div>
+<img src="images/Movie Appreciation.jpg">
+</div>
 </div>
 
-<script>
-var myIndex = 0;
-carousel();
+<div class="row">
+  <div class="Description-col">
+    <h2>
+      Our Website Description2
+    </h2>
+<p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+</div>
+<img src="images/Movie Appreciation.jpg">
+</div>
+</div>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
+<table style="width:100%">
+<div class="row">
+
 
 </body>
 </html>
+
+
