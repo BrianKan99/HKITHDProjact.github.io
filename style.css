@@ -7,15 +7,28 @@
             font-size: 40px;
         }
         h2{
-            color: rgb(20, 128, 235);
+            color: rgb(31, 114, 197);
+            font-size: 20px;
+            padding-top: 80px;
         }
         p{
-            color: darkslategray;
-            font-size: 36px;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            width: 80%;
+            margin: auto;
+            padding-top: 80px;
+            padding-bottom: 50px;
+            
         }
-        header, section, footer{ 
+        header{ 
             background-color: #72cbeb;  
         }
+        section{ 
+          background-color: #ffffff;  
+      }
+        footer{ 
+        background-color: #72cbeb;  
+     }
         
         header li{
             display:inline;
@@ -59,7 +72,7 @@
         }
 
         .dropbtn {
-  background-color: #15a1d9;
+  background-color: #2ca6db;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -167,12 +180,7 @@
   .mySlides {display: none;}
   img {vertical-align: middle;}
   
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
+
   
   /* Caption text */
   .text {
@@ -224,5 +232,45 @@
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
-
   
+  .slideshow-container {
+    display: block;
+    margin:0 auto;
+    max-width: 2000px;
+    max-height: 600px;
+    overflow:hidden;
+  }
+
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .rule-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+
+  .about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;  
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.about-col h3{
+    text-align: left;
+}
