@@ -12,7 +12,7 @@
         h2{
             font-size: 50px;
             padding-top: 80px;
-            color: rgb(27, 219, 190);
+            color: rgb(219, 27, 117);
             text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         }
 
@@ -317,7 +317,6 @@ table, th, td {
   border:0px solid black;/*線粗*/
   width: 10%;/*大小*/
   border-collapse: collapse;/*消除內線*/ 
-   
 }
 
 
@@ -336,3 +335,9 @@ table, th, td {
 }
 
 
+.ranktable {
+  border:1px solid black;/*線粗*/
+  width: 10%;/*大小*/
+  border-collapse: collapse;/*消除內線*/ 
+  background-color: #D6EEEE;
+}
