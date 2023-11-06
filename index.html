@@ -60,28 +60,10 @@
         <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
       </div>
     </div>
-
-      <script>
-      var myIndex = 0;
-      carousel();
-      
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";  
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";  
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-      }
-      </script>
+    
         <div class="row">
             <div class="Description-col">
-              <h2>
-                Our Website Description
-              </h2>
+              <h2>Our Website Description</h2>
         <p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
         </div>
         <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
@@ -126,6 +108,24 @@
 
         <div class="spotlight-group" data-fit="cover" data-autohide="all">
           <script src="dist/spotlight.bundle.js"></script>
+
+          
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
      <footer>
     <blockquote>如想獲得最佳的視覺效果，請以 IE 7.0 或以上 的瀏覽器及屏幕解像度 1024 x 768 瀏覽。</blockquote>
     </footer>

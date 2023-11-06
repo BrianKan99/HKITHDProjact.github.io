@@ -1,114 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-HK">
 <head>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>About us</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="css/all.css">
-     </head> 
+    <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我們</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    
-    <section class="sub-header">
-        <nav>
-            <a href="index.html"><img src="images/movie camera logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about us.html">ABOUT</a></li>
-                       <div class="dropdown">
-          <li class="dropbtn"><a href="#">NEW MOVIES</a></li>
-            <div class="dropdown-content">
-                <a href="Black%20Widow.html">Black Widow</a>
-                <a href="Luca.html">Luca </a>
-                <a href="Hitman's%20Wife's%20Bodyguard.html">Hitman's Wife’s Bodyguard</a>
-             </div>
-                      </div>
-                <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1>Contact us</h1>
-        
-    </section>
-   <!------- contact us --------->
-    <section class="location">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19863.2036381!2d-0.11079466736027128!3d51.51504224671489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487603554edf855f%3A0xa1185c8d19184c0!2z6Iux5ZyL5YCr5pWm5YCr5pWm5biC!5e0!3m2!1szh-TW!2shk!4v1625386035883!5m2!1szh-TW!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    
-    </section>
-    
-    <section class="contact-us">
-    
-        <div class="row">
-        <div class="contact-col">
-            <div>
-            <i class="fas fa-phone-alt"></i>
-            <span>
-                <h5>+8 0549198919</h5>
-                <p>Monday to Saturday,10AM to 6PM</p>
-                </span>
-            </div>
-                        <div>
-            <i class="far fa-envelope"></i>
-            <span>
-                <h5>DBCLUB@gmail.com</h5>
-                <p>Email us your query</p>
-                </span>
-            </div>
-            </div>
-        
-                <div class="contact-col"> 
-            <form action="">
-                    <input type="text" placeholder="Enter your name" required>
-                    <input type="email" placeholder="Enter your email address" required>
-                    <input type="text" placeholder="Enter your subject" required>
-                    <textarea rows="8" placeholder="Message" required></textarea>
-                    <button type="submit" class="hero-btn blue-btn">Send Message</button>
-            </form>
-            
-            </div>
-            
+        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">關於我們</strong>
+        </section>
+      </header>
+    <section class="link" >
+
+
+      <div class="dropdown">
+        <button class="dropbtn">主頁</a></button>
+        <div class="dropdown-content">
+            <a href="index.html">學校傑出作品欣賞</a>
+          </div>
+    </div>
+
+
+        <div class="dropdown">
+        <button class="dropbtn">最新消息</a></button>
+        <div class="dropdown-content">
+            <a href="List of new works.html">新作品列表</a>
+            <a href="ArtNews.html">美術新聞</a>
+          </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn"><a>作品資訊</a></button>
+        <div class="dropdown-content">
+            <a href="Artworks ranking.html">作品排行榜</a>
+            <a href="Student testimonials.html">學生感言</a>
+            <a href="Artworks album.html">作品相簿</a>
+          </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">登錄/註冊</a></button> 
+        <div class="dropdown-content">
+            <a href="Login account.html">登錄帳戶</a>
+            <a href="Register.html">進行註冊</a>
+          </div>
+    </div>
+        <div class="dropdown">
+        <button class="dropbtn">關於我們</a></button>
+        <div class="dropdown-content">
+        <a href="about us.html">關於我們(詳細)</a>
+        <a href="common problem.html">常見問題</a>
+        <a href="contact us.html">聯繫我們</a>
         </div>
-    
-    
-    </section>
+      </div>
+      <div class="slideshow-container">
+        <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
+        <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">
+        <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
+      </div>
+    </div>
 
-    
-  <!------ Footer ------>
-    
-    <section class="footer">
-      <h4>About Us</h4>
-        <div class="icons">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram-square"></i>
-            <i class="fab fa-youtube-square"></i>
-            <i class="fab fa-discord"></i>
-        </div>
-        <p>Made with<i class="fas fa-tools"></i> by Donald &amp; Brian</p>
-    </section>
-    
-    
-  <!------JavaScript for Toggle Menu------>
-    <script>
-    
-       var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
-    
-    
-    </script>
+    <div class="row">
+      <div class="Description-col">
+        <h2>Our Website Description</h2>
+  <p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+  </div>
+  <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
+  </div>
+</div>
 
+<div class="row">
+    <div class="Description-col">
+      <h2>Our Website Description2</h2>
+<p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+</div>
+<img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
+</div>
 
+<h4 align="center">About Us</h4>
+
+<div class="icons">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-twitter-square"></i>
+  <i class="fab fa-instagram-square"></i> 
+  <i class="fab fa-youtube-square"></i>
+  <i class="fab fa-discord"></i>
+</div>
 </body>
+     <footer>
+    <blockquote>如想獲得最佳的視覺效果，請以 IE 7.0 或以上 的瀏覽器及屏幕解像度 1024 x 768 瀏覽。</blockquote>
+    </footer>
 </html>
