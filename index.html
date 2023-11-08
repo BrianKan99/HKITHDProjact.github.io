@@ -1,141 +1,194 @@
 <!DOCTYPE html>
-<html lang="zh-HK">
+<html>
 <head>
-    <header>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>學校傑出作品欣賞網站</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/all.css">
-</head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/all.css">
+     </head> 
 <body>
-        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
-        </section>
-      </header>
-    <section class="link" >
-      
-      <div class="dropdown">
-        <button class="dropbtn">主頁</a></button>
-        <div class="dropdown-content">
-            <a href="index.html">學校傑出作品欣賞</a>
-          </div>
-    </div>
-
-
-        <div class="dropdown">
-        <button class="dropbtn">最新消息</a></button>
-        <div class="dropdown-content">
-            <a href="List of new works.html">新作品列表</a>
-            <a href="ArtNews.html">美術新聞</a>
-          </div>
-    </div>
-
-
-    <div class="dropdown">
-        <button class="dropbtn"><a>作品資訊</a></button>
-        <div class="dropdown-content">
-            <a href="Artworks ranking.html">作品排行榜</a>
-            <a href="Student testimonials.html">學生感言</a>
-            <a href="Artworks album.html">作品相簿</a>
-          </div>
-    </div>
-
-    <div class="dropdown">
-        <button class="dropbtn">登錄/註冊</a></button> 
-        <div class="dropdown-content">
-            <a href="Login account.html">登錄帳戶</a>
-            <a href="Register.html">進行註冊</a>
-          </div>
-    </div>
-        <div class="dropdown">
-        <button class="dropbtn">關於我們</a></button>
-        <div class="dropdown-content">
-        <a href="about us.html">關於我們(詳細)</a>
-        <a href="common problem.html">常見問題</a>
-        <a href="contact us.html">聯繫我們</a>
-        </div>
-      </div>
-      <div class="slideshow-container">
-        <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
-        <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">
-        <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
-      </div>
-    </div>
     
-        <div class="row">
-            <div class="Description-col">
-              <h2>Our Website Description</h2>
-        <p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/movie camera logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                                       <div class="dropdown">
+          <li class="dropbtn"><a href="#">NEW MOVIES</a></li>
+            <div class="dropdown-content">
+                <a href="Black%20Widow.html">Black Widow</a>
+                <a href="Luca.html">Luca </a>
+                <a href="Hitman's%20Wife's%20Bodyguard.html">Hitman's Wife’s Bodyguard</a>
+             </div>
+                      </div>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+             <h1>World's Biggest Movie Club</h1>
+            <p>Welcome to the movie world!</p>
+            <a href="about.html" class="hero-btn">Visit us to know more</a>
         </div>
-        <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
-        </div>
-    </div>
-    
-      <div class="row">
-          <div class="Description-col">
-            <h2>Our Website Description2</h2>
-      <p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
-      </div>
-      <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
-      </div>
+        
     </section>
     
-  <table style="width:100%">
-    <div class="row">
-
-  <tr>
-    <th><h3>學校代表作品</h3></th>
-    <td class = "photo"><a class="spotlight" href="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" data-button="Click Me!" data-button-href="javascript:alert('You can open an URL or execute some Javascript here.')" data-description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-      <img src="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" alt="Lorem ipsum dolor sit amet"></a>
-    <th><h3>學校代表作品</h3></th>
-    <td class = "photo"><a class="spotlight" href="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" data-button="Click Me!" data-button-href="javascript:alert('You can open an URL or execute some Javascript here.')" data-description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-      <img src="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" alt="Lorem ipsum dolor sit amet"></a>
-    <th><h3>學校代表作品</h3></th>
-    <td class = "photo"><a class="spotlight" href="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" data-button="Click Me!" data-button-href="javascript:alert('You can open an URL or execute some Javascript here.')" data-description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-      <img src="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" alt="Lorem ipsum dolor sit amet"></a>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p></td>
-    <td>&nbsp;</td>
-    <td><p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p></td>
-    <td>&nbsp;</td>
-    <td><p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p></td>
-  </tr>
-</table>  
-    </ul> 
-    </nav>
-        </main>
-
-        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-          <script src="dist/spotlight.bundle.js"></script>
-
-        </body>       
-      <script>
-        var myIndex = 0;
-        carousel();
+    <!------ rule ------>
+    
+    <section class="rule">
+        <h1>Things to know before you join the club</h1>
+        <p>In order to maintain the good atmosphere of the club, we have set the following rules.</p>
         
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 2000); // Change image every 2 seconds
+        <div class="row">
+        <div class="rule-col">
+            <h3>Rule 1</h3>
+            <p>Do not slander or insult the color, race, religious belief, national origin, nationality or gender of a certain type of public in the movie.</p>
+            </div>
+            <div class="rule-col">
+            <h3>Rule 2</h3>
+            <p>It is not allowed to secretly film the content of the movie, and stream the content out.</p>
+            </div>
+            <div class="rule-col">
+            <h3>Rule 3</h3>
+            <p>Don't personally attack anyone, watch and discuss movies in an objective and rational manner.</p>
+            </div>
+        </div>
+    </section>
+   <!----- Clubs ----->
+    
+    <section class="clubs">
+    <h1>Our Global Club</h1>
+    <p>Our club are distributed different places.</p>
+        
+        <div class="row">
+          <div class="clubs-col">
+               <img src="images/LONDON.jpg">
+              <div class="layer">
+               <h3>LONDON</h3>
+            </div>
+            </div>
+            <div class="clubs-col">
+               <img src="images/101.jpg">
+              <div class="layer">
+               <h3>TAIWAN</h3>
+            </div>
+                </div>
+            <div class="clubs-col">
+               <img src="images/Hong Kong.jpg">
+              <div class="layer">
+               <h3>HONG KONG</h3>
+            </div>
+            </div>
+            </div>
+    </section>
+    
+    
+    <!-------- Facilities ------->
+    
+    <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Provide a comfortable environment for you to have movie exchanges as you like.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+               <img src="images/STRATO-PC-main-1920x960 (1).jpg">
+                <h3>Private Cinema</h3>
+                <p>We will play movies here from time to time, welcome to watch and exchange opinions.</p>
+            </div>
+             <div class="facilities-col">
+               <img src="images/Canteen.jpg">
+                <h3>Canteen</h3>
+                <p>Whether it's local specialties or global delicacies, you can also experience the rich taste of each, and you can also enjoy the beautiful scenery while dining.</p>
+            </div>
+             <div class="facilities-col">
+               <img src="images/Board Game Room.jpg">
+                <h3>Board Game Room</h3>
+                <p>There are a lot of board games here. Moreover, the space is spacious and bright, and there are many seats. </p>
+            </div>
+        </div>
+        
+    </section>
+    
+  <!-------- testimonials --------->
+    
+    <section class="testimonials">
+                <h1>Club Testimonials</h1>
+            <p>Check out what our Members are saying!</p>
+        
+                <div class="row">
+            <div class="testimonials-col">
+               <img src="images/keanu.jpg">
+                     <div>
+                <p>This movie club is very fun. In addition to watching movies, there are many facilities to play.</p>
+                    <h3>Keanu Reeves</h3>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>        
+                 <i class="fas fa-star"></i>        
+                 <i class="far fa-star"></i>        
+                </div>
+                </div>
+                    <div class="testimonials-col">
+               <img src="images/Tom Cruise.jpg">
+                     <div>
+                <p>This movie club plays with friends. It really makes me very happy!</p>
+                    <h3>Tom Cruise</h3>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>        
+                 <i class="fas fa-star"></i>  
+                 <i class="fas fa-star-half-alt"></i>
+            </div>
+    </div>
+        </div>
+    </section>
+    <!------ Call To Action ------>
+    
+    <section class="cta">
+        <h1>Join our movie club now~<br>In addition to having a fully equipped cinema,<br>our board game area also has many small games waiting for you to play!</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+    
+  <!------ Footer ------>
+    
+    <section class="footer">
+      <h4>About Us</h4>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter-square"></i>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+            <i class="fab fa-youtube-square"></i>
+            <i class="fab fa-discord"></i>
+        </div>
+        <p>Made with<i class="fas fa-tools"></i> by Donald &amp; Brian</p>
+    </section>
+    
+    
+  <!------JavaScript for Toggle Menu------>
+    <script>
+    
+       var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
         }
-        </script>
-     <footer>
-    </div>
-    <footer align="center">
-      <div class="icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-youtube-square"></i>
-        <i class="fab fa-discord"></i>
-    </div>
-    </footer>
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    
+    </script>
+
+
+</body>
 </html>
+
+    

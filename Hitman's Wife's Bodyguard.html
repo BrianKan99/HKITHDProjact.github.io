@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/all.css">
+     </head> 
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/movie camera logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                       <div class="dropdown">
+          <li class="dropbtn"><a href="#">NEW MOVIES</a></li>
+            <div class="dropdown-content">
+                <a href="Black%20Widow.html">Black Widow</a>
+                <a href="Luca.html">Luca </a>
+                <a href="Hitman's%20Wife's%20Bodyguard.html">Hitman's Wife’s Bodyguard</a>
+             </div>
+                      </div>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>New Movies</h1>
+        
+    </section>
+   <!------- about us contact --------->
+    
+    <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>The Hitman's Wife's Bodyguard</h1>
+            <h5>Release date:<br>17 Jun 2021</h5>
+        <p>The world's most lethal odd couple - bodyguard Michael Bryce and hitman Darius Kincaid - are back on another life-threatening mission. Still unlicensed and under scrutiny, Bryce is forced into action by Darius's even more volatile wife, the infamous international con artist Sonia Kincaid. As Bryce is driven over the edge by his two most dangerous protectees, the trio get in over their heads in a global plot and soon find that they are all that stand between Europe and a vengeful and powerful madman. Joining in the fun and deadly mayhem is Morgan Freeman as - well, you'll have to see.</p>
+            <h3>Cast:&emsp;Ryan Reynolds,&ensp;Tom Hooper,&ensp;Frank Grillo,&ensp;Antonio Banderas,&ensp;Morgan Freeman,&ensp;Salma Hayek,&ensp; <br>Samuel L. Jackson</h3>
+            <h3>Director:&emsp;Patrick Hughes</h3>
+        <a href="https://www.cineworld.co.uk/films/hitmans-wifes-bodyguard/ho00007589#/buy-tickets-by-film?for-movie=ho00007589&view-mode=list" class="hero-btn blue-btn">Buy Ticket</a>
+        </div>
+        <div class="about-col">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/9C0l31YcahQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    </section>
+    
+  <!------ Footer ------>
+    
+    <section class="footer">
+      <h4>About Us</h4>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-youtube-square"></i>
+            <i class="fab fa-discord"></i>
+        </div>
+        <p>Made with<i class="fas fa-tools"></i> by Donald &amp; Brian</p>
+    </section>
+    
+    
+  <!------JavaScript for Toggle Menu------>
+    <script>
+    
+       var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    
+    </script>
+
+
+</body>
+</html>
+
+    
