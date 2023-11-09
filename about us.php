@@ -4,12 +4,12 @@
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>常見問題</title>
+    <title>關於我們</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 常見問題</strong>
+        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">關於我們</strong>
         </section>
       </header>
     <section class="link" >
@@ -55,44 +55,31 @@
         <a href="contact us.html">聯繫我們</a>
         </div>
       </div>
-      <br>
-      <br>
       <div class="slideshow-container">
         <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
         <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">
         <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
       </div>
     </div>
-    
 
-      <table style="width:100%">
-        <tr colspan="2">
-          <td class="sub-header">
-            <h1>常見問題</h1></td>
-        </tr>
-        <tr>
-          <td><h3>常見問題</h3><br></td>
-        </tr>
-        <tr>
-          <td><div class="contact-col"> 
-            <form action="">
-                    <input type="text" placeholder="Enter your name" required>
-                    <input type="email" placeholder="Enter your student ID" required>
-                    <input type="text" placeholder="Enter your email address" required>
-                    <textarea rows="8" placeholder="Enter your question in here" required></textarea>
-                    <button type="submit" class="hero-btn blue-btn">Send Message</button>
-            </form></td>  
-        </tr>
-      </table>
-    </div>
-  </body>
-    <footer align="center">
-      <div class="icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-youtube-square"></i>
-        <i class="fab fa-discord"></i>
-    </div>
-    </footer>
+    <div class="row">
+      <div class="Description-col">
+        <h2>Our Website Description</h2>
+  <p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+  </div>
+  <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
+  </div>
+</div>
+
+<div class="row">
+    <div class="Description-col">
+      <h2>Our Website Description2</h2>
+<p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+</div>
+<img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
+</div>
+
+<h4 align="center">About Us</h4>
+</body>
+<?php include('footer.php'); ?>
 </html>

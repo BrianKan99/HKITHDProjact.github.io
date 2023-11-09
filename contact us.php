@@ -4,12 +4,12 @@
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>常見問題</title>
+    <title>聯繫我們</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 常見問題</strong>
+        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 聯繫我們</strong>
         </section>
       </header>
     <section class="link" >
@@ -68,10 +68,10 @@
       <table style="width:100%">
         <tr colspan="2">
           <td class="sub-header">
-            <h1>常見問題</h1></td>
+            <h1>contact us</h1></td>
         </tr>
         <tr>
-          <td><h3>常見問題</h3><br></td>
+          <td><h3>Send Us A Message</h3><br></td>
         </tr>
         <tr>
           <td><div class="contact-col"> 
@@ -86,13 +86,5 @@
       </table>
     </div>
   </body>
-    <footer align="center">
-      <div class="icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-instagram-square"></i>
-        <i class="fab fa-youtube-square"></i>
-        <i class="fab fa-discord"></i>
-    </div>
-    </footer>
+  <?php include('footer.php'); ?>
 </html>
