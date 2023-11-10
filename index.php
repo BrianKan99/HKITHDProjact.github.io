@@ -1,4 +1,10 @@
-<?php include('dbConnect.php'); ?>
+<?php include('dbConnect.php'); 
+
+session_start();
+
+if(!isset($_SESSION['Username']))
+    HEADER("Location: /Login account.php")
+?>
 
 <?php
 $nameQ = mysqli_query($dbConnection, "SELECT * FROM 'account'");
@@ -19,7 +25,7 @@ while ($account = mysqli_fetch_assoc($nameQ)) {
     <link rel="stylesheet" href="css/all.css">  
 </head>
 <body>
-        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
+        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
         </section>
       </header>
     <section class="link" >
@@ -27,7 +33,7 @@ while ($account = mysqli_fetch_assoc($nameQ)) {
       <div class="dropdown">
         <button class="dropbtn">主頁</a></button>
         <div class="dropdown-content">
-            <a href="index.html">學校傑出作品欣賞</a>
+            <a href="index.php">學校傑出作品欣賞</a>
           </div>
     </div>
 
