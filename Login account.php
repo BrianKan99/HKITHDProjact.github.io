@@ -1,27 +1,5 @@
 <?php
 include 'dbConnect.php';
-// Check if the form is submitted
-if(isset($_POST['submit'])){
-    // Get the username and password from the form
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    
-    // Here, you can perform validation and authentication against a database or any other data source
-    
-    // For simplicity, let's assume the correct username and password are "admin"
-    $correct_username = "admin";
-    $correct_password = "password";
-    
-    // Check if the entered username and password match the correct credentials
-    if($username == $correct_username && $password == $correct_password){
-        // Successful login, redirect to a protected page or perform any other desired action
-        header("Location: dashboard.php");
-        exit();
-    } else {
-        // Invalid credentials, show an error message
-        $error_message = "Invalid username or password";
-    }
-}
 ?>
 
 <!DOCTYPE html>
@@ -71,6 +49,7 @@ if(isset($_POST['submit'])){
 <div class="dropdown-content">
     <a href="Login account.html">登錄帳戶</a>
     <a href="Register.html">進行註冊</a>
+    <a href="functions.php">登出</a>
   </div>
 </div>
 <div class="dropdown">
@@ -92,7 +71,7 @@ if(isset($_POST['submit'])){
     <?php if(isset($error_message)){ ?>
         <p><?php echo $error_message; ?></p>
     <?php } ?>
-    <form method="POST" action="">
+    <form action= "/functions.php?op=checkLogin" method="POST">
         <label for="username">Username:</label>
         <input type="text" name="username" id="username" required><br><br>
         
