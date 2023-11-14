@@ -68,17 +68,17 @@ include 'dbConnect.php';
 </div>
 
     <h2>登入你的帳戶</h2>
-    <?php if(isset($error_message)){ ?>
-        <p><?php echo $error_message; ?></p>
-    <?php } ?>
-    <form action= "/functions.php?op=checkLogin" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" name="username" id="username" required><br><br>
+    <br>
+    <form action="functions.php?op=checklogin" method="POST">
+
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" require><br>
         
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" required><br><br>
-        
-        <input type="submit" name="submit" value="Login">
+        <label for="name">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <br>
+        <input type="submit" value="Login">
     </form>
 </body>
 <footer> 

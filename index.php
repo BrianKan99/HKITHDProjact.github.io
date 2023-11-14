@@ -6,14 +6,6 @@ if(!isset($_SESSION['Username']))
     HEADER("Location: /Login account.php")
 ?>
 
-<?php
-$nameQ = mysqli_query($dbConnection, "SELECT * FROM 'account'");
-
-while ($account = mysqli_fetch_assoc($nameQ)) {
-  echo $account['accountName']. '<br>';
-}
-?>
-
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
@@ -33,7 +25,7 @@ while ($account = mysqli_fetch_assoc($nameQ)) {
       <div class="dropdown">
         <button class="dropbtn">主頁</a></button>
         <div class="dropdown-content">
-            <a href="index.php">學校傑出作品欣賞</a>
+            <a href="index.php">學校傑出作品欣賞</a>  
           </div>
     </div>
 
@@ -59,7 +51,7 @@ while ($account = mysqli_fetch_assoc($nameQ)) {
     <div class="dropdown">
         <button class="dropbtn">登錄/註冊</a></button> 
         <div class="dropdown-content">
-            <a href="Login account.php">登錄帳戶</a>
+            <a href="Login account.php?op=login">登錄帳戶</a>
             <a href="Register.php">進行註冊</a>
           </div>
     </div>
