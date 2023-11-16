@@ -26,39 +26,8 @@
         </div>
 
 
-        <div class="dropdown">
-        <button class="dropbtn">最新消息</a></button>
-        <div class="dropdown-content">
-            <a href="List of new works.html">新作品列表</a>
-            <a href="ArtNews.html">美術新聞</a>
-          </div>
-    </div>
-
-    
-    <div class="dropdown">
-        <button class="dropbtn"><a>作品資訊</a></button>
-        <div class="dropdown-content">
-            <a href="Artworks ranking.html">作品排行榜</a>
-            <a href="Student testimonials.html">學生感言</a>
-            <a href="Artworks album.html">作品相簿</a>
-          </div>
-    </div>
-
-    <div class="dropdown">
-        <button class="dropbtn">登錄/註冊</a></button> 
-        <div class="dropdown-content">
-            <a href="Login account.html">登錄帳戶</a>
-            <a href="Register.html">進行註冊</a>
-          </div>
-    </div>
-        <div class="dropdown">
-        <button class="dropbtn">關於我們</a></button>
-        <div class="dropdown-content">
-        <a href="about us.html">關於我們(詳細)</a>
-        <a href="common problem.html">常見問題</a>
-        <a href="contact us.html">聯繫我們</a>
-        </div>
-      </div>
+        <?php include('header.php'); ?>
+        
       <h2><?php echo date('n');?>月新作品列表</h2>
       <table style="width:100%">
         <div class="row">

@@ -16,50 +16,9 @@ include 'dbConnect.php';
   <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">登入帳戶</strong>
 </section>
 </header>
-<section class="link" >
 
+<?php include('header.php'); ?>
 
-<div class="dropdown">
-<button class="dropbtn">主頁</a></button>
-<div class="dropdown-content">
-    <a href="index.html">學校傑出作品欣賞</a>
-  </div>
-</div>
-
-
-<div class="dropdown">
-<button class="dropbtn">最新消息</a></button>
-<div class="dropdown-content">
-    <a href="List of new works.html">新作品列表</a>
-    <a href="ArtNews.html">美術新聞</a>
-  </div>
-</div>
-
-<div class="dropdown">
-<button class="dropbtn"><a>作品資訊</a></button>
-<div class="dropdown-content">
-    <a href="Artworks ranking.html">作品排行榜</a>
-    <a href="Student testimonials.html">學生感言</a>
-    <a href="Artworks album.html">作品相簿</a>
-  </div>
-</div>
-
-<div class="dropdown">
-<button class="dropbtn">登錄/註冊</a></button> 
-<div class="dropdown-content">
-    <a href="Login account.html">登錄帳戶</a>
-    <a href="Register.html">進行註冊</a>
-    <a href="functions.php">登出</a>
-  </div>
-</div>
-<div class="dropdown">
-<button class="dropbtn">關於我們</a></button>
-<div class="dropdown-content">
-<a href="about us.html">關於我們(詳細)</a>
-<a href="common problem.html">常見問題</a>
-<a href="contact us.html">聯繫我們</a>
-</div>
-</div>
 <div class="slideshow-container">
 <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
 <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">
@@ -69,17 +28,17 @@ include 'dbConnect.php';
 
     <h2>登入你的帳戶</h2>
     <br>
-    <form action="functions.php?op=checklogin" method="POST">
+    <form action="functions.php?op=checkLogin" method="post">
 
-        <label for="name">Username:</label>
-        <input type="text" id="name" name="name" require><br>
-        
-        <label for="name">Password:</label>
-        <input type="password" id="password" name="password">
+    <label for="email">電郵:</label>
+    <input type="email" id="email" name="email" require><br>
 
-        <br>
-        <input type="submit" value="Login">
-    </form>
+    <label for="email">密碼:</label>
+    <input type="password" id="password" name="password">
+
+    <br>
+    <input type="submit" value="登入">
+</form> 
 </body>
 <footer> 
 </div>

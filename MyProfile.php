@@ -1,8 +1,6 @@
 <?php include('dbConnect.php');
 
-session_start();
-
-if(!isset($_SESSION['username']))
+if(isset($_SESSION['email']))
     header("Location: /Login account.php");
 ?>
 
@@ -54,6 +52,7 @@ if(!isset($_SESSION['username']))
         <div class="dropdown-content">
             <a href="Login account.php?op=login">登錄帳戶</a>
             <a href="Register.php">進行註冊</a>
+            <a href="/functions.php?op=logout">登出</a>
           </div>
     </div>
         <div class="dropdown">
@@ -70,10 +69,11 @@ if(!isset($_SESSION['username']))
         <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
       </div>
     </div>
-
-    <?php echo "MyProfile";
-     ?>
-
+    
+    <?php
+    $email = "brian@gmail.hk";
+    echo "hay your Email is  $email!";  
+    ?>
      <footer>
     </div>
     <?php include('footer.php'); ?>
