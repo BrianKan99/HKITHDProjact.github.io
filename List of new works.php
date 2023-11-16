@@ -17,14 +17,6 @@
         <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 新作品列表</strong>
         </section>
       </header>
-    <section class="link" >
-        <div class="dropdown">
-            <button class="dropbtn">主頁</a></button>
-            <div class="dropdown-content">
-                <a href="index.html">學校傑出作品欣賞</a>
-              </div>
-        </div>
-
 
         <?php include('header.php'); ?>
         
