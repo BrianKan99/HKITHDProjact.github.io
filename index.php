@@ -1,9 +1,9 @@
 <?php include('dbConnect.php'); 
 
-session_start();
+/*session_start();
 
 if(!isset($_SESSION['Username']))
-    HEADER("Location: /Login account.php")
+    HEADER("Location: /Login account.php")*/
 ?>
 
 <!DOCTYPE html>
@@ -17,18 +17,9 @@ if(!isset($_SESSION['Username']))
     <link rel="stylesheet" href="css/all.css">  
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
+        <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
         </section>
       </header>
-    <section class="link" >
-      
-      <div class="dropdown">
-        <button class="dropbtn">主頁</a></button>
-        <div class="dropdown-content">
-            <a href="index.php">學校傑出作品欣賞</a>  
-          </div>
-    </div>
-
 
     <?php include('header.php'); ?>
     
@@ -43,9 +34,9 @@ if(!isset($_SESSION['Username']))
         <div class="row">
             <div class="Description-col">
               <h2>Our Website Description</h2>
-        <p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+        <p>Design Your Future: Transform Ideas into Artistry, Cultivate Skills, and Connect with a Global Community of Creators on our Student Design Website. Empowering You to Thrive in the Digital Age!</p>
         </div>
-        <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
+        <img src="images/1.png">
         </div>
     </div>
     
@@ -54,7 +45,7 @@ if(!isset($_SESSION['Username']))
             <h2>Our Website Description2</h2>
       <p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
       </div>
-      <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
+      <img src="images/2.png">
       </div>
     </section>
     

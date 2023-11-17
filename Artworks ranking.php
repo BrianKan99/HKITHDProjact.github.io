@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品排行榜</strong>
+        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品排行榜</strong>
         </section>
       </header>
 

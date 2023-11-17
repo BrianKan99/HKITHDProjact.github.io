@@ -1,11 +1,11 @@
 <?php
 session_start();
+include 'dbConnect.php'
 ?>
 
-     <div class="dropdown">
-        <button class="dropbtn">主頁</a></button>
+<div class="dropdown"><div class="dropdown-content"></div>
+        <button class="dropbtn"><a href="index.php">主頁</a></button>
         <div class="dropdown-content">
-            <a href="index.php">學校傑出作品欣賞</a>
           </div>
     </div>
 
