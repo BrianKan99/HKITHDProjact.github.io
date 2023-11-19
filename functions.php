@@ -20,12 +20,12 @@ if(isset($_GET['op'])) $op = $_GET['op'];
   {
       session_start();
       session_destroy();
-      header("Location: /");
+      header("Location: index.php");
   }
   function checkLogin($email, $password)
   {
     global $dbConnection;
-    $staffQ = mysqli_query($dbConnection, "SELECT * FROM `account` WHERE `email`='".$email."'");
+    $staffQ = mysqli_query($dbConnection, "SELECT * FROM `staff` WHERE `email`='".$email."'");
 
     $staff = mysqli_fetch_assoc($staffQ);
       /*$staffEmail     =   "brian@gmail.hk";

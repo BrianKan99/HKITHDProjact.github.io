@@ -27,11 +27,7 @@ include('functions.php');
         <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
       </div>
     </div>
-    
-    <?php
-    $email = "brian@gmail.hk";
-    echo "hay your Email is  $email!";  
-    ?>
+    <h5>Your email is <?php echo $_SESSION['email'];?><h5>
     </div>
     <?php include('footer.php'); ?>
 </html>

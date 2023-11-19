@@ -13,7 +13,7 @@ include 'dbConnect.php';
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-  <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">登入帳戶</strong>
+  <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">登入帳戶</strong>
 </section>
 </header>
 

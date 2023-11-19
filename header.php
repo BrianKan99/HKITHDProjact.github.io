@@ -3,11 +3,8 @@ session_start();
 include 'dbConnect.php'
 ?>
 
-<div class="dropdown"><div class="dropdown-content"></div>
-        <button class="dropbtn"><a href="index.php">主頁</a></button>
-        <div class="dropdown-content">
-          </div>
-    </div>
+
+<button class="dropbtn"><a href="index.php">主頁</a></button>
 
 <div class="dropdown">
         <button class="dropbtn">最新消息</a></button>
@@ -28,10 +25,21 @@ include 'dbConnect.php'
     </div>
 
     <div class="dropdown">
-        <button class="dropbtn">登錄/註冊</a></button> 
+        <button class="dropbtn">帳戶管理</a></button> 
         <div class="dropdown-content">
-            <a href="Login account.php?op=login">登錄帳戶</a>
-            <a href="Register.php">進行註冊</a>
+            <?php
+      if ($_SESSION)
+      {
+        echo '
+            <a href="/MyProfile.php">我的個人資料</a>
+            <a href="/functions.php?op=logout">登出</a>';
+      }
+      else
+      {
+        echo '<a href="/Login account.php">登錄帳戶</a>';
+        echo '<a href="/Register.php">進行註冊</a>';
+      }
+      ?>
           </div>
     </div>
         <div class="dropdown">
@@ -43,12 +51,7 @@ include 'dbConnect.php'
         </div>
       </div>
 
-      <?php 
-    if ($_SESSION)
-    {
-        echo '<a href="/functions.php?op=logout">登出</a>';
-    }
-    ?>
+
       <div class="slideshow-container">
         <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
         <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">

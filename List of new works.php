@@ -14,7 +14,7 @@
     <title>News Website</title>
 </head>
 <body>
-        <a href="index.html"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 新作品列表</strong>
+        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 新作品列表</strong>
         </section>
       </header>
 
