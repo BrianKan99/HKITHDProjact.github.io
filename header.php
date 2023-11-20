@@ -37,7 +37,7 @@ include 'dbConnect.php'
       else
       {
         echo '<a href="/Login account.php">登錄帳戶</a>';
-        echo '<a href="/Register.php">進行註冊</a>';
+        echo '<a href="/registration.php">進行註冊</a>';
       }
       ?>
           </div>

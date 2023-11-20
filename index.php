@@ -54,22 +54,22 @@ if(!isset($_SESSION['Username']))
 
   <tr>
     <th><h3>學校代表作品</h3></th>
-    <td class = "photo"><a class="spotlight" href="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" data-button="Click Me!" data-button-href="javascript:alert('You can open an URL or execute some Javascript here.')" data-description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-      <img src="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" alt="Lorem ipsum dolor sit amet"></a>
+    <td class = "photo"><a class="spotlight" href="images/8.png" data-button="Click Me to Learn more!" data-button-href="https://www.artsthread.com/portfolios/subjective-objects" data-description="This project explores the concept of perceiving everyday objects from a bionic perspective, transforming them into giant wearable experiences. By making these objects visible and tangible, they become reliable guardians that bring joy to people's lives, particularly during moments spent at home. The goal is to discover innovative ways of experiencing reality and inanimate objects, pushing the boundaries of design. By focusing on everyday objects, I aim to convey the powerful nature of our surroundings, encouraging us to view things from different angles and be prepared for life's challenges.">
+      <img src="images/8.png" alt="Subjective Objects"></a>
     <th><h3>學校代表作品</h3></th>
-    <td class = "photo"><a class="spotlight" href="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" data-button="Click Me!" data-button-href="javascript:alert('You can open an URL or execute some Javascript here.')" data-description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-      <img src="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" alt="Lorem ipsum dolor sit amet"></a>
+    <td class = "photo"><a class="spotlight" href="images/5.png" data-button="Click Me to Learn more!" data-button-href="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/a40710139992507.Y3JvcCwyNTk0LDIwMjgsNTk5NywyMjQw.jpg" data-description="Join Baxter, the charming cat with an insatiable hunger for both food and attention. Experience a delightful neighborhood adventure as Baxter embarks on a quest to satisfy his cravings, all while taking the time to greet his lovable friends along the way.">
+      <img src="images/5.png" alt="Baxter is Hungry"></a>
     <th><h3>學校代表作品</h3></th>
-    <td class = "photo"><a class="spotlight" href="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" data-button="Click Me!" data-button-href="javascript:alert('You can open an URL or execute some Javascript here.')" data-description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-      <img src="images/digital-artwork-with-swirling-patterns-flowers-generative-ai.jpg" alt="Lorem ipsum dolor sit amet"></a>
+    <td class = "photo"><a class="spotlight" href="images/9.png" data-button="Click Me to Learn more!" data-button-href="https://abduzeedo.com/exploring-bauhaus-influence-3d-illustration" data-description="This art collection seamlessly translates historical artistry into a contemporary visual language, exploring the harmonious structures of basic 3D shapes. The compositions, confined to square areas, evoke a sense of organized tranquility through meticulous placement. Inspired by Bauhaus architecture, where form follows function, each line and element serve a purpose. The Color Theory section takes viewers on a vibrant journey through abstract swirls, showcasing the power of color to captivate and evoke emotions. The Less is More section embodies minimalist aesthetics, resembling ceramic sculptures that tell narratives through simplicity. These artworks serve as a bridge between the past and the future, incorporating modern technology.">
+      <img src="images/9.png" alt="Abstract 3D illustration artifacts"></a>
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td><p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p></td>
+    <td><h4>Arkwork Name : Subjective Objects<br><br>Student Name: Ms. Gloria Poon</h4><br></td>
     <td>&nbsp;</td>
-    <td><p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p></td>
+    <td><h4>Arkwork Name : Baxter is Hungry<br><br>Student Name: Ms. Isabella Yeung</h4><br></td>
     <td>&nbsp;</td>
-    <td><p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p></td>
+    <td><h4>Arkwork Name : Abstract 3D illustration artifacts<br><br>Student Name: Ms. Debbie Yuen</h4><br></td>
   </tr>
 </table>  
     </ul> 
