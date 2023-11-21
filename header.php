@@ -1,6 +1,6 @@
 <?php
-session_start();
-include 'dbConnect.php'
+if (!session_id()) session_start();
+include 'config.php'
 ?>
 
 
@@ -31,13 +31,13 @@ include 'dbConnect.php'
       if ($_SESSION)
       {
         echo '
-            <a href="/MyProfile.php">我的個人資料</a>
+            <a href="/admin_page.php">我的個人資料</a>
             <a href="/functions.php?op=logout">登出</a>';
       }
       else
       {
-        echo '<a href="/Login account.php">登錄帳戶</a>';
-        echo '<a href="/registration.php">進行註冊</a>';
+        echo '<a href="/login_form.php">登錄帳戶</a>';
+        echo '<a href="/register_form.php">進行註冊</a>';
       }
       ?>
           </div>
