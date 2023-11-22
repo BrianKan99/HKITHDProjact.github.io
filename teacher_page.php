@@ -16,12 +16,12 @@ if(!isset($_SESSION['teacher_name'])){
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>學校傑出作品欣賞網站</title>
+    <title>老師頁面</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">  
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
+        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">老師頁面</strong>
         </section>
       </header>
 
@@ -36,8 +36,8 @@ if(!isset($_SESSION['teacher_name'])){
 <div class="container">
 
    <div class="content">
-      <h3>hi, <span>teacher</span></h3>
-      <h1>welcome <span><?php echo $_SESSION['teacher_name'] ?></span></h1>
+      <h3>歡迎登入<span>老師頁面</span></h3>
+      <h1>你的名稱是<span><?php echo $_SESSION['teacher_name'] ?></span></h1>
       <p>this is an teacher page</p>
       <a href="logout.php" class="btn">logout</a>
    </div>

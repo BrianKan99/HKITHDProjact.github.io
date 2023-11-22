@@ -1,5 +1,5 @@
 <?php
-if (isset($_GET["id"]) ) {
+if ( isset($_GET["id"]) ) {
     $id = $_GET["id"];
 
     $servername = "localhost";
@@ -10,7 +10,7 @@ if (isset($_GET["id"]) ) {
     // Create connection
     $connection = new mysqli($servername, $username, $password, $database);
 
-    $sql = "DELETE FROM clients WHERE id=$id";
+    $sql = "DELETE FROM user_form WHERE id=$id";
     $connection->query($sql);
 }
 

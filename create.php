@@ -57,7 +57,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create</title>
+    <title>創建帳號</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -124,7 +124,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
             </div>
             <div class="row mb-3">
                 <div class="col-sm-3 d-grid">
-                    <a class="btn btn-outline-primary" href="/index.php" role ="button">Cancel</a>
+                    <a class="btn btn-outline-primary" href="/admin_page.php" role ="button">Cancel</a>
                 </div>
             </div>  
         </form>

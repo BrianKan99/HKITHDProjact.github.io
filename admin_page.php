@@ -16,13 +16,13 @@ if(!isset($_SESSION['admin_name'])){
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>學校傑出作品欣賞網站</title>
+    <title>管理員頁面</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">  
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
+        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">管理員頁面</strong>
         </section>
       </header>
 
@@ -37,9 +37,9 @@ if(!isset($_SESSION['admin_name'])){
 <div class="container">
 
    <div class="content">
-      <h3>hi, <span>admin</span></h3>
-      <h1>welcome <span><?php echo $_SESSION['admin_name'] ?></span></h1>
-      <p>this is an admin page</p>
+      <h3>歡迎登入<span>管理員頁面</span></h3>
+      <h1>你的名稱是<span><?php echo $_SESSION['admin_name'] ?></span></h1>
+      <p>以下帳號已被管埋</p>
       <a class="btn btn-primary" href="create.php" role="button">NewClient</a>
       <br>
       <table class="table">

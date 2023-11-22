@@ -25,15 +25,20 @@ if(isset($_POST['submit'])){
          $_SESSION['admin_name'] = $row['name'];
          header('location:admin_page.php');
 
-      }elseif($row['user_type'] == 'user'){
+      }elseif($row['user_type'] == 'student'){
 
-         $_SESSION['user_name'] = $row['name'];
-         header('location:user_page.php');
+         $_SESSION['student_name'] = $row['name'];
+         header('location:student_page.php');
 
       }elseif($row['user_type'] == 'teacher'){
 
         $_SESSION['teacher_name'] = $row['name'];
         header('location:teacher_page.php');
+      
+      }elseif($row['user_type'] == 'editor'){
+
+         $_SESSION['editor_name'] = $row['name'];
+         header('location:editor_page.php');
 
      }
      
@@ -43,20 +48,27 @@ if(isset($_POST['submit'])){
 
 };
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
+   <!DOCTYPE html>
+<html lang="zh-HK">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>login form</title>
+    <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>帳號登入</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">  
+</head>
+<body>
+        <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">帳號登入</strong>
+        </section>
+      </header>
 
+    <?php include('header.php'); ?>
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body> 
    
 <div class="form-container">
 

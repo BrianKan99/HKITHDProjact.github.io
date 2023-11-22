@@ -35,12 +35,21 @@ if(isset($_POST['submit'])){
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-HK">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register form</title>
+    <header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>進行注册</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">  
+</head>
+<body>
+        <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">進行注册</strong>
+        </section>
+      </header>
+
+    <?php include('header.php'); ?>
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -67,6 +76,7 @@ if(isset($_POST['submit'])){
          <option value="student">student</option>
          <option value="admin">admin</option>
          <option value="teacher">teacher</option>
+         <option value="editor">editor</option>
       </select>
       <input type="submit" name="submit" value="register now" class="form-btn">
       <p>already have an account? <a href="login_form.php">login now</a></p>

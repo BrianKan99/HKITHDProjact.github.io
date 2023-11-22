@@ -54,8 +54,8 @@ else {
             break;
         }
 
-        $sql = "UPDATE user_form" .
-               "SET id = '$id', name = '$name' , email = '$password' " .
+        $sql = "UPDATE user_form " .
+               "SET id = '$id', name = '$name' , email = '$email', password = '$password' " .
                "WHERE id = $id ";
 
         $result = $connection->query($sql);
@@ -67,7 +67,7 @@ else {
 
         $successMessage = "Client updated correctly";
 
-        header("location: /index.php");
+        header("location: /admin_page.php");
         exit;
 
     }while (false);
@@ -75,7 +75,7 @@ else {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-HK">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -147,7 +147,7 @@ else {
             </div>
             <div class="row mb-3">
                 <div class="col-sm-3 d-grid">
-                    <a class="btn btn-outline-primary" href="/index.php" role ="button">Cancel</a>
+                    <a class="btn btn-outline-primary" href="/admin_page.php" role ="button">Cancel</a>
                 </div>
             </div>  
         </form>
