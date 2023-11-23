@@ -3,12 +3,12 @@
 function inputFields($placeholder, $name,$value,$type){
     $ele="
     <div class=\"form-group my-4\">
-        <input type='$type' name='$name' placeholader='$placeholder'
-        class=\"form-control\" value='$value' autocomplete=\"off\">
+        <input type='$type' name='$name' 
+        placeholader='$placeholder'class=\"form-control\" 
+        value='$value' autocomplete=\"off\">
     </div>
     ";
     echo $ele;
-
 }
 
 ?>

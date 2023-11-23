@@ -2,7 +2,7 @@
 
 $con=mysqli_connect("localhost","root", "", "hkitprojact");
 
-if($con){
+if(!$con){
     die(mysqli_error($con));
 }
 

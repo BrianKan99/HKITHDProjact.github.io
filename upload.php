@@ -22,10 +22,14 @@ require_once('./operations.php');
 
       <h1 class="text-center my-3">Upload form</h1>
       <div class="container d-flex justify-content-center">
-            <form actioc="display.php" method="post" class="w-50">
+            <form action="display.php" method="post" class="w-50" enctype="multipart/form-data">
+            </h1>User Name :</h1>
               <?php   inputFields("Username", "username","","text") ?>
+              </h1>Email :</h1>
               <?php   inputFields("Email", "email","","email") ?>
+              </h1>Artwork Name :</h1>
               <?php   inputFields("Artworkname", "artworkname","","text") ?>
+              </h1>Artwork File :</h1>
               <?php   inputFields("", "file","","file") ?>
               <button class="btn btn-dark" type="submit" name="submit">Submit</button>
             </form>
