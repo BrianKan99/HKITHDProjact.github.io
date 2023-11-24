@@ -63,7 +63,6 @@
       <div class="spotlight-group" data-fit="cover" data-autohide="all">
         <script src="dist/spotlight.bundle.js"></script>
       </body>
-     <footer>
     </div>
     <?php include('footer.php'); ?>
 </html>

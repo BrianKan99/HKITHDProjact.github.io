@@ -39,6 +39,8 @@ if(!isset($_SESSION['editor_name'])){
       <h3>歡迎登入<span>編輯者頁面</span></h3>
       <h1>welcome <span><?php echo $_SESSION['editor_name'] ?></span></h1>
       <p>this is an editor page</p>
+      <a href="display.php" class="btn">檢視學生作品</a>
+      <a href="Artworks ranking.php" class="btn">作品排行榜</a>
       <a href="logout.php" class="btn">logout</a>
    </div>
 

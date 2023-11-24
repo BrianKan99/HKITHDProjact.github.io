@@ -102,4 +102,5 @@ if(!isset($_SESSION['admin_name'])){
 </div>
 
 </body>
+<?php include('footer.php'); ?>
 </html>

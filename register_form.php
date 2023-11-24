@@ -74,7 +74,7 @@ if(isset($_POST['submit'])){
       <input type="password" name="cpassword" required placeholder="confirm your password">
       <select name="user_type">
          <option value="student">student</option>
-         <option value="admin">admin</option>
+         <!--<option value="admin">admin</option>-->
          <option value="teacher">teacher</option>
          <option value="editor">editor</option>
       </select>

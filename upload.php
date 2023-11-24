@@ -20,7 +20,7 @@ require_once('./operations.php');
 
       <?php include('header.php'); ?>
 
-      <h1 class="text-center my-3">Upload form</h1>
+      <h1 class="text-center my-3">上傳你的作品吧!!</h1>
       <div class="container d-flex justify-content-center">
             <form action="display.php" method="post" class="w-50" enctype="multipart/form-data">
             </h1>User Name :</h1>
