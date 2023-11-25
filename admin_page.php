@@ -96,7 +96,7 @@ if(!isset($_SESSION['admin_name'])){
          
          </tbody>
       </table>
-      <a href="logout.php" class="btn">logout</a>
+      <a href="logout.php" class="button button1">logout</a>
    </div>
 
 </div>

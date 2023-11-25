@@ -35,7 +35,7 @@ if(isset($_POST['submit'])) {
     $extension=array('jpeg','jpg','png');
     if(in_array($file_extension,$extension)){
         $upload_image='images/'.$imagefilename; 
-        move_uploaded_file($imagfiletemp,$upload_image);  
+        //move_uploaded_file($imagfiletemp,$upload_image);  
         $sql="insert into `artwork_upload` (username,email,artworkname,image) values 
         ('$username','$email','$artworkname','$upload_image')"; 
         $result=mysqli_query($con,$sql);
