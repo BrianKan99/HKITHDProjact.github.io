@@ -440,3 +440,54 @@ table, th, td {
   width: 10%;/*大小*/
   border-collapse: collapse;/*消除內線*/ 
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #59a9ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #1c70df}
+
+.button:active {
+  background-color: #59a9ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.logout {border-radius: 12px;
+  background-color: #196bc4;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.logout {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #196bc4;
+}
+
+.logout:hover {
+  background-color: #196bc4;
+  color: white;
+}
+
+
