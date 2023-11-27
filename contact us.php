@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
+<style>
+      body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+      }
+   </style>
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,18 +37,18 @@
       <table style="width:100%">
         <tr colspan="2">
           <td class="sub-header">
-            <h1>contact us</h1></td>
+            <h1>聯繫我們</h1></td>
         </tr>
         <tr>
-          <td><h3>Send Us A Message</h3><br></td>
+          <td><h3>發訊息給我們吧!</h3><br></td>
         </tr>
         <tr>
           <td><div class="contact-col"> 
-            <form action="">
-                    <input type="text" placeholder="Enter your name" required>
-                    <input type="email" placeholder="Enter your student ID" required>
-                    <input type="text" placeholder="Enter your email address" required>
-                    <textarea rows="8" placeholder="Enter your question in here" required></textarea>
+            <form action="message.php" method="post">
+              <!--<textarea rows="8" placeholder="Enter your question in here" required></textarea>-->
+                    <label>Name:</label><input type="text" placeholder="Enter your name" required name="name"><br>
+                    <label>Email:</label><input type="text" placeholder="Enter your email address" required name="email"><br>
+                    <label>Message:</label><textarea rows="8" placeholder="Enter your question in here" required name="text"></textarea><br>
                     <button type="submit" class="hero-btn blue-btn">Send Message</button>
             </form></td>  
         </tr>

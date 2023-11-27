@@ -63,7 +63,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 </head>
 <body>
     <div class="container my-5">
-        <h2>New Client</h2>
+        <h2>創建帳號</h2>
 
         <?php
         if (!empty($errorMessage)) {

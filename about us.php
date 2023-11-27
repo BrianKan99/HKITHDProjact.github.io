@@ -7,6 +7,14 @@
     <title>關於我們</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
+    <style>
+      body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+      }
+   </style>
 </head>
 <body>
         <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">關於我們</strong>
@@ -21,25 +29,22 @@
         <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
       </div>
     </div>
+    <br><br>
+    <table style="width:100%">
+        <tr colspan="2">
+          <td class="sub-header">
+            <h1>關於我們</h1></td>
+        </tr>
+        <tr>
+          <td><h5>關於我們</h5><br></td>
+        </tr>
+        <tr>
+          <td><div class="contact-col"> 
 
-    <div class="row">
-      <div class="Description-col">
-        <h2>Our Website Description</h2>
-  <p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
-  </div>
-  <img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
-  </div>
-</div>
-
-<div class="row">
-    <div class="Description-col">
-      <h2>Our Website Description2</h2>
-<p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
-</div>
-<img src="images/abstract-colorful-splash-3d-background-generative-ai-background.jpg">
-</div>
-
-<h4 align="center">About Us</h4>
+        </tr>
+      </table>
+ <!-- <h4 align="center">About Us</h4>-->
 </body>
+<br><br><br><br><br><br><br><br>
 <?php include('footer.php'); ?>
 </html>

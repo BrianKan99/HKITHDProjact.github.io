@@ -15,6 +15,14 @@ if(!isset($_SESSION['Username']))
     <title>學校傑出作品欣賞網站</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">  
+    <style>
+      body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+      }
+   </style>
 </head>
 <body>
         <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>

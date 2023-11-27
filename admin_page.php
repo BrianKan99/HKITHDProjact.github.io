@@ -13,6 +13,35 @@ if(!isset($_SESSION['admin_name'])){
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>  
+<style>
+      body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+         height: 100vh;
+         overflow: hidden;    
+         }  
+
+      h1{
+         position: absolute;
+         top: 8px;
+         right: 16px;
+         font-size: 30px;   
+        }
+        p{
+         position: absolute;
+         top: 25%;
+         right: -500px;
+         width: 100%;
+        }
+
+        h2{
+         position: relative;
+         right: -420px;
+         font-size: 30px;   
+        }
+</style>
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,19 +66,20 @@ if(!isset($_SESSION['admin_name'])){
 <div class="container">
 
    <div class="content">
-      <h3>歡迎登入<span>管理員頁面</span></h3>
+      <h2>歡迎登入<span>管理員頁面</span></h2>
       <h1>你的名稱是<span><?php echo $_SESSION['admin_name'] ?></span></h1>
       <p>以下帳號已被管埋</p>
-      <a class="btn btn-primary" href="create.php" role="button">NewClient</a>
-      <br>
+      <a class="btn btn-primary" href="create.php" role="button">創建帳號</a>
+      <br><br>
       <table class="table">
          <thead>
             <tr>
-               <th>id</th>
-               <th>name</th>
-               <th>email</th>
-               <th>password</th>
-               <th>user_type</th>
+               <th>Id</th>
+               <th>Name</th>
+               <th>Email</th>
+               <th>Password</th>
+               <th>User Type</th>
+               <th>Edit</th>
             </tr>
          </thead>
          <tbody>
@@ -102,5 +132,6 @@ if(!isset($_SESSION['admin_name'])){
 </div>
 
 </body>
+<br><br><br>      
 <?php include('footer.php'); ?>
 </html>

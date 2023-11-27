@@ -85,6 +85,29 @@ form {
   right: 16px;
   font-size: 30px;
 }
+
+body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+         height: 100vh;
+         overflow: hidden;    
+         }  
+         
+input[type="text"]{
+         width: 20%;
+         padding: 0 5px;
+         height: 40px;
+         font-size: 16px;
+      }
+
+      input[type="email"]{
+         width: 20%;
+         padding: 0 5px;
+         height: 40px;
+         font-size: 16px;
+      }
 </style>
 <head> 
     <header>
@@ -101,11 +124,12 @@ form {
       </header>
 
       <?php include('header.php'); ?>
+      <br>
 
       <div class="content">
       <h3 class="topleft">歡迎登入<span>學生頁面</span></h3>
       <h1 class="topright">學生姓名:<span><?php echo $_SESSION['student_name'] ?></span></h1>
-      <a href="logout.php" class="logout">logout</a>
+      <a href="logout.php" class="button button1">logout</a>
 
       <h1 class="center">上傳你的作品吧!!</h1>
       <div class="container d-flex justify-content-center">
@@ -123,6 +147,7 @@ form {
             </form>
       </div>
 <br>
-</body> 
+</body>
+<br><br><br><br><br><br><br><br><br><br><br>
 <?php include('footer.php'); ?>
 </html>

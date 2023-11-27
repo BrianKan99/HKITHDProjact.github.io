@@ -50,30 +50,92 @@ if(isset($_POST['submit'])){
 ?>
    <!DOCTYPE html>
 <html lang="zh-HK">
+<style>
+      body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+         height: 100vh;
+         overflow: hidden;    
+      }
+
+      form{
+         position: absolute;
+         top: 50%;
+         left:50%;
+         transform: translate(-50%, -50%);
+         width: 400;
+         background: white;
+         border-radius: 10px;
+      }
+
+      h3{
+         text-align: center;
+         padding: 0 0 20px 0;
+         border-bottom: 1px solid silver;
+      }
+
+      form{
+         padding: 0 40px;
+         box-sizing: bordrer-box;
+      }
+
+      form .txt_field{
+         position: relative;
+         border-bottom: 2px solid #adadad;
+         margin: 30px 0;
+      }
+
+      input{
+         width: 100%;
+         padding: 0 5px;
+         height: 40px;
+         font-size: 16px;
+
+      }
+
+      input[type="submit"]{
+         width: 100%;
+         height: 50px;
+         border: 1px solid;
+         background: #2691d9;
+         border-radius: 25px;
+         font-size: 18px;
+         color: #e9f4fb;
+         font-weight: 700;
+         cursor: pointer;
+         outline: none;
+      }
+
+      input[type="submit"]:hover{
+         border-color: #2691d9;
+         transition: .5s;
+      }
+</style>
 <head>
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>帳號登入</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.css">  
+
 </head>
 <body>
         <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">帳號登入</strong>
         </section>
       </header>
 
-    <?php include('header.php'); ?>
+      <?php include('header.php'); ?>
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
-
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body> 
    
-<div class="form-container">
+<div>
 
-   <form action="" method="post">
-      <h3>login now</h3>
+   <form  action="" method="post">
+      <h3>請登入您的帳戶</h3>
       <?php
       if(isset($error)){
          foreach($error as $error){
@@ -81,14 +143,20 @@ if(isset($_POST['submit'])){
          };
       };
       ?>
-      <input type="email" name="email" required placeholder="enter your email">
-      <input type="password" name="password" required placeholder="enter your password">
-      <input type="submit" name="submit" value="login now" class="form-btn">
+      <br>
+      <i class='bx bxs-user'></i>
+      <input class="input1" type="email" name="email" required placeholder="enter your email">
+      <br>
+      <br>
+      <i class='bx bxs-lock-alt'></i>
+      <input class="input2" type="password" name="password" required placeholder="enter your password">
+      <br>
+      <br>
+      <input class="input3" type="submit" name="submit" value="login" class="form-btn">
       <p>don't have an account? <a href="register_form.php">register now</a></p>
    </form>
 
 </div>
 
-</body>
-<?php include('footer.php'); ?>
+</body>  
 </html>

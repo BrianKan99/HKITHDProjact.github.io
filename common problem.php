@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
+<style>
+      body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+      }
+   </style>
     <header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
