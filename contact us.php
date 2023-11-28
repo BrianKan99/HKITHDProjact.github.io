@@ -8,6 +8,25 @@
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
       }
+
+      label{
+        position: relative;
+         right: -20px;
+      }
+      input{
+        position: relative;
+         right: -20px;
+      }
+
+      button{
+        position: relative;
+         right: -20px;
+      }
+
+      h3{
+        position: relative;
+         right: -20px;
+      }
    </style>
     <header>
     <meta charset="UTF-8">
@@ -45,11 +64,13 @@
         <tr>
           <td><div class="contact-col"> 
             <form action="message.php" method="post">
-              <!--<textarea rows="8" placeholder="Enter your question in here" required></textarea>-->
-                    <label>Name:</label><input type="text" placeholder="Enter your name" required name="name"><br>
-                    <label>Email:</label><input type="text" placeholder="Enter your email address" required name="email"><br>
-                    <label>Message:</label><textarea rows="8" placeholder="Enter your question in here" required name="text"></textarea><br>
-                    <button type="submit" class="hero-btn blue-btn">Send Message</button>
+                    <label>Name:</label><input type="text" name="name"><br>
+
+                    <label>Email:</label><input type="email" name="email"><br>
+
+                    <label>Message:</label><input type="text" name="message"><br>
+
+                    <button class="button" style="vertical-align:middle" type="submit" name="submit"><span>Send Message</span></button>
             </form></td>  
         </tr>
       </table>

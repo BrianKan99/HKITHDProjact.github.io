@@ -22,6 +22,26 @@ if(!isset($_SESSION['editor_name'])){
          height: 100vh;
          overflow: hidden;    
          } 
+
+         h1{
+         position: absolute;
+         top: 8px;
+         right: 16px;
+         font-size: 30px;   
+        }
+
+        p{
+         position: absolute;
+         top: 25%;
+         right: -500px;
+         width: 100%;
+        }
+
+        h2{
+         position: relative;
+         right: -750px;
+         font-size: 30px;   
+        }
 </style>
     <header>
     <meta charset="UTF-8">
@@ -46,7 +66,7 @@ if(!isset($_SESSION['editor_name'])){
 <div class="container">
 
    <div class="content">
-      <h3>歡迎登入<span>編輯者頁面</span></h3>
+      <h2>歡迎登入<span>編輯者頁面</span></h2>
       <h1>welcome <span><?php echo $_SESSION['editor_name'] ?></span></h1>
       <p>this is an editor page</p>
       <a href="display.php" class="btn">檢視學生作品</a>
