@@ -11,6 +11,7 @@ $id = "";
 $name = "";
 $email = "";
 $password = "";
+$usertype = "";
 
 $errorMessage = "";
 $successMessage = "";
@@ -39,6 +40,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'GET') {
     $name = $row["name"];
     $email = $row["email"];
     $password = $row["password"];
+    $usertype = $row["user_type"];
 }
 else {
     //// POST method: Update the data of the client
@@ -47,15 +49,16 @@ else {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $password = $_POST["password"];
+    $usertype = $_POST["usertype"];
 
     do{
-        if ( empty($id) || empty($name) || empty($email) || empty($password)) {
+        if ( empty($id) || empty($name) || empty($email) || empty($password) || empty($usertype)) {
             $errorMessage = "All the fields are required";
             break;
         }
 
         $sql = "UPDATE user_form " .
-               "SET id = '$id', name = '$name' , email = '$email', password = '$password' " .
+               "SET id = '$id', name = '$name' , email = '$email', password = '$password' , user_type = '$usertype'" .
                "WHERE id = $id ";
 
         $result = $connection->query($sql);
@@ -77,6 +80,16 @@ else {
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
+<style>
+      body{
+         margin: 0;
+         padding: 0;
+         font-family: montserrat;
+         background: linear-gradient(120deg,#2980b9, #8e44ad);
+         height: 100vh;
+         overflow: hidden;    
+         }
+</style>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create</title>
@@ -125,6 +138,13 @@ else {
                 </div>
             </div>
 
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">usertype</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="usertype" value="<?php echo $usertype; ?>">
+                </div>
+            </div>
+
             <?php
             if (!empty($errorMessage)) {
                 echo "
@@ -147,7 +167,7 @@ else {
             </div>
             <div class="row mb-3">
                 <div class="col-sm-3 d-grid">
-                    <a class="btn btn-outline-primary" href="/admin_page.php" role ="button">Cancel</a>
+                <a class="btn btn-primary" href="/admin_page.php" role ="button">Cancel</a>
                 </div>
             </div>  
         </form>

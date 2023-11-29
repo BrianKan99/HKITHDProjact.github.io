@@ -69,12 +69,14 @@ if(!isset($_SESSION['editor_name'])){
       <h2>歡迎登入<span>編輯者頁面</span></h2>
       <h1>welcome <span><?php echo $_SESSION['editor_name'] ?></span></h1>
       <p>this is an editor page</p>
-      <a href="display.php" class="btn">檢視學生作品</a>
-      <a href="Artworks ranking.php" class="btn">作品排行榜</a>
-      <a href="logout.php" class="btn">logout</a>
+      <a href="display.php" class="button button1">檢視學生作品</a>
+      <a href="Artworks ranking.php" class="button button1">作品排行榜</a>
+      <a href="logout.php" class="button button1">logout</a>
    </div>
 
 </div>
 
 </body>
+<br><br><br><br><br><br><br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+<?php include('footer.php'); ?>
 </html>

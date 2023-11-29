@@ -59,7 +59,7 @@ if(isset($_POST['submit'])) {
          padding: 0;
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
-         height: 130vh;   
+         height: 190vh;   
          } 
 </style>
     <header>
@@ -75,6 +75,7 @@ if(isset($_POST['submit'])) {
       </header>
 
     <?php include('header.php'); ?>
+    <br>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         img{
