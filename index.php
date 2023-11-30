@@ -25,7 +25,7 @@ if(!isset($_SESSION['Username']))
    </style>
 </head>
 <body>
-        <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
+        <a><img src="images/hkit.png" width="60" height="90"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
         </section>
       </header>
 
@@ -41,20 +41,14 @@ if(!isset($_SESSION['Username']))
     
         <div class="row">
             <div class="Description-col">
-              <h2>Our Website Description</h2>
-        <p>Design Your Future: Transform Ideas into Artistry, Cultivate Skills, and Connect with a Global Community of Creators on our Student Design Website. Empowering You to Thrive in the Digital Age!</p>
+              <h2>Website Description </h2>
+        <p>Welcome to HKIT student art design website, where creativity and talent converge. Serving as an alternative platform, our website is dedicated to showcasing the hard work of students. With a userfriendly interface and seamless navigation, it offers a time-saving option for viewers to access and appreciate a diverse range of student artworks. From paintings and sculptures to digital designs and photography, our website provides a virtual gallery that celebrates the artistic achievements of students. Explore their unique perspectives, be inspired by their creations, and support the next generation of artists on our student art design website.</p>
+        <br>
+        <p>Let’s launch your creativity and thrive in a supportive environment.</p>
         </div>
         <img src="images/1.png">
         </div>
     </div>
-    
-      <div class="row">
-          <div class="Description-col">
-            <h2>Our Website Description2</h2>
-      <p>2No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
-      </div>
-      <img src="images/2.png">
-      </div>
     </section>
     
   <table style="width:100%">

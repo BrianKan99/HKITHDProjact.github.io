@@ -38,6 +38,7 @@ if(!isset($_SESSION['admin_name'])){
 
         h2{
          position: relative;
+         top: -30px;
          right: -420px;
          font-size: 30px;   
         }
@@ -62,7 +63,8 @@ if(!isset($_SESSION['admin_name'])){
 
 </head>
 <body>
-   
+   <br>
+
 <div class="container">
 
    <div class="content">
@@ -79,7 +81,7 @@ if(!isset($_SESSION['admin_name'])){
                <th>Email</th>
                <th>Password</th>
                <th>User Type</th>
-               <th>Edit</th>
+               <th>Edit/Delete</th>
             </tr>
          </thead>
          <tbody>
@@ -130,7 +132,6 @@ if(!isset($_SESSION['admin_name'])){
    </div>
 
 </div>
-
 </body>
 <br><br><br>      
 <?php include('footer.php'); ?>
