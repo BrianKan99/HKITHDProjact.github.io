@@ -5,7 +5,7 @@ include 'dbConnect.php';
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登入帳戶</title>
@@ -16,8 +16,9 @@ include 'dbConnect.php';
   <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">登入帳戶</strong>
 </section>
 </header>
-
+<section style="background:#2980B9;">
 <?php include('header.php'); ?>
+</section>
 
 <div class="slideshow-container">
 <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">

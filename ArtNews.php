@@ -8,8 +8,13 @@
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
       }
+
+      strong{
+        position: relative;
+         top: 10px;
+      }
    </style>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>美術新聞</title>
@@ -22,12 +27,12 @@
     <title>News Website</title>
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 美術新聞</strong>
+    <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter"> 美術新聞</strong>
         </section>
       </header>
-      
+      <section style="background:#2980B9;">
       <?php include('header.php'); ?>
-
+    </section>
       <h2>最新美術新聞</h2>
       <table style="width:100%">
         <div class="row">

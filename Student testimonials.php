@@ -21,8 +21,13 @@
       h5.stuname{
       font-size: 2rem; 
       }
+
+      strong{
+        position: relative;
+         top: 10px;
+      }
    </style>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>學生感言</title>
@@ -30,11 +35,12 @@
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">學生感言</strong>
+    <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter"> 學生感言</strong>
         </section>
       </header>
-
+    <section style="background:#2980B9;">
     <?php include('header.php'); ?>
+    </section>
 
     <h2>學生感言</h2>
 

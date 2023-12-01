@@ -112,20 +112,27 @@ if(isset($_POST['submit'])){
          border-color: #2691d9;
          transition: .5s;
       }
+
+      strong{
+        position: relative;
+         top: 10px;
+      }
+      
 </style>
 <head>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>帳號登入</title>
 
 </head>
 <body>
-        <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">帳號登入</strong>
+   <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter"> 帳號登入</strong>
         </section>
       </header>
-
+      <section style="background:#2980B9;">
       <?php include('header.php'); ?>
+   </section>
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>

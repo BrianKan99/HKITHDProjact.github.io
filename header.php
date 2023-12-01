@@ -56,5 +56,9 @@ include 'config.php'
         <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
         <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">
         <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
+        <img class="mySlides" src="images/girl-dream-pink-sunrise-artwork-cityscape-bridge-4961x2780-2564.jpg" style="width:100%">
+        <img class="mySlides" src="images/girl-dream-bridge-supernova-cgi-artwork-5k-4961x2361-2557.jpg" style="width:100%">
+        <img class="mySlides" src="images/alone-girl-woman-falling-stars-town-home-milky-way-dream-3840x2160-6657.jpg" style="width:100%">
+        <img class="mySlides" src="images/59878f21f63a1b7c2fe2e8045f08cc1e.jpg" style="width:100%">
       </div>
     </div>    

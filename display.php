@@ -73,8 +73,9 @@ if(isset($_POST['submit'])) {
         <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">學生作品數據</strong>
         </section>
       </header>
-
+      <section style="background:#2980B9;">
     <?php include('header.php'); ?>
+        </section>
     <br>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>

@@ -43,7 +43,7 @@ if(!isset($_SESSION['admin_name'])){
          font-size: 30px;   
         }
 </style>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>管理員頁面</title>
@@ -55,9 +55,9 @@ if(!isset($_SESSION['admin_name'])){
         <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">管理員頁面</strong>
         </section>
       </header>
-
+      <section style="background:#2980B9;">
       <?php include('header.php'); ?>
-
+      </section>
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 

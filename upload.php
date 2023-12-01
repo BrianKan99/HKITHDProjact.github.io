@@ -5,7 +5,7 @@ require_once('./operations.php');
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>  
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>學生上傳作品頁面</title>
@@ -17,8 +17,9 @@ require_once('./operations.php');
         <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">學生上傳作品頁面</strong>
         </section>
       </header>
-
+      <section style="background:#2980B9;">
       <?php include('header.php'); ?>
+</section>
 
       <h1 class="text-center my-3">上傳你的作品吧!!</h1>
       <div class="container d-flex justify-content-center">

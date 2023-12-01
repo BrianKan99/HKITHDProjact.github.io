@@ -9,7 +9,7 @@ if(!isset($_SESSION['Username']))
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>學校傑出作品欣賞網站</title>
@@ -22,29 +22,29 @@ if(!isset($_SESSION['Username']))
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
       }
+
+      strong{
+        position: relative;
+         top: 10px;
+      }
    </style>
 </head>
 <body>
-        <a><img src="images/hkit.png" width="60" height="90"></a><strong class="animate-charcter"> 學校作品欣賞網站</strong>
+    <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter"> 學校傑出作品欣賞網站</strong>
         </section>
       </header>
-
+    <section style="background:#2980B9;">
     <?php include('header.php'); ?>
-    
-      </div>
-      <div class="slideshow-container">
-        <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
-        <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">
-        <img class="mySlides" src="images/sF0IA8u.jpeg" style="width:100%">
+    </section>
       </div>
     </div>
     
         <div class="row">
             <div class="Description-col">
               <h2>Website Description </h2>
-        <p>Welcome to HKIT student art design website, where creativity and talent converge. Serving as an alternative platform, our website is dedicated to showcasing the hard work of students. With a userfriendly interface and seamless navigation, it offers a time-saving option for viewers to access and appreciate a diverse range of student artworks. From paintings and sculptures to digital designs and photography, our website provides a virtual gallery that celebrates the artistic achievements of students. Explore their unique perspectives, be inspired by their creations, and support the next generation of artists on our student art design website.</p>
+        <p>歡迎來到香港科技專上書院學生藝術設計網站，這裡匯聚了創意與才華。 作為一個創意平台，我們的網站致力於展示學生的辛勤工作。 憑藉用戶友好的介面和無縫導航，它為用戶提供了一個節省時間的選項來存取和欣賞各種學生藝術作品。 從繪畫和雕塑到數位設計和攝影，我們的網站提供了一個虛擬畫廊來慶祝學生的藝術成就。 在我們的學生藝術設計網站上探索他們獨特的視角，從他們的創作中獲得靈感，並支持下一代藝術家。</p>
         <br>
-        <p>Let’s launch your creativity and thrive in a supportive environment.</p>
+        <p>讓我們發揮您的創造力並在支持性的環境中茁壯成長。</p>
         </div>
         <img src="images/1.png">
         </div>

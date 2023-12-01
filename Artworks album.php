@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-HK">
 <head>
-    <header>
+    <header style="background:#2980B9;">
     <style>
       body{
          margin: 0;
          padding: 0;
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
+      }
+
+      strong{
+        position: relative;
+         top: 10px;
       }
    </style>
     <meta charset="UTF-8">
@@ -22,14 +27,14 @@
     <title>News Website</title>
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 作品相簿</strong>
+    <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter"> 作品相簿</strong>
         </section>
       </header>
 
 
-    
+    <section style="background:#2980B9;">
     <?php include('header.php'); ?>
-
+    </section>
 
       <h2>作品相簿</h2>
       <table style="width:100%">

@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
 
       form{
          position: absolute;
-         top: 50%;
+         top: 60%;
          left:50%;
          transform: translate(-50%, -50%);
          width: 400;
@@ -105,8 +105,13 @@ if(isset($_POST['submit'])){
          height: 40px;
          font-size: 15px;
       }
+
+      strong{
+        position: relative;
+         top: 10px;
+      }
 </style>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>進行注冊</title>
@@ -114,12 +119,12 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="css/all.css">  
 </head>
 <body>
-        <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">進行注冊</strong>
+      <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter"> 進行注冊</strong>
         </section>
       </header>
-
+      <section style="background:#2980B9;">
     <?php include('header.php'); ?>
-
+      </section>
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 

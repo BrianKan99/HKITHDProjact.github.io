@@ -8,8 +8,13 @@
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
       }
+
+      strong{
+        position: relative;
+         top: 10px;
+      }
    </style>
-    <header>
+    <header style="background:#2980B9;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>學校作品排行榜</title>
@@ -17,14 +22,14 @@
     <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter"> 學校作品排行榜</strong>
+    <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter"> 學校作品排行榜</strong>
         </section>
       </header>
 
 
-
+      <section style="background:#2980B9;">
     <?php include('header.php'); ?>
-    
+    </section>
       <div class="slideshow-container">
         <img class="mySlides" src="images/cefabc6aa7bd28cccd0713e4a3656cc9.jpg" style="width:100%;">
         <img class="mySlides" src="images/BmWXkgF.jpeg" style="width:100%">
