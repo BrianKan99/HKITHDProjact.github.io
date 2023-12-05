@@ -62,7 +62,7 @@ form {
 
 .center {
   position: absolute;
-  top: 20%;
+  top: 30%;
   width: 100%;
   text-align: center;
   font-size: 50px;
@@ -70,11 +70,12 @@ form {
 
 .topleft {
   position: relative;
+  
 }
 
 .topleft {
   position: absolute;
-  top: 10px;
+  top: 60px;
   left: 680px;
   font-size: 70px;
 }
@@ -91,8 +92,8 @@ body{
          padding: 0;
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
-         height: 100vh;
-         overflow: hidden;    
+         height: 110vh;
+
          }  
          
 input[type="text"]{
@@ -119,7 +120,7 @@ input[type="text"]{
 
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">學生上傳作品頁面</strong>
+        <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter">學生上傳作品頁面</strong>
         </section>
       </header>
       <section style="background:#2980B9;">

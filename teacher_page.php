@@ -52,7 +52,7 @@ if(!isset($_SESSION['teacher_name'])){
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">老師管埋頁面</strong>
+        <a href="index.php"><img src="images/hkit-removebg-preview.png" width="60" height="70"></a><strong class="animate-charcter">老師管埋頁面</strong>
         </section>
       </header>
       <section style="background:#2980B9;">
@@ -72,63 +72,7 @@ if(!isset($_SESSION['teacher_name'])){
       <h2>歡迎登入<span>老師管埋頁面</span></h2>
       <h1>你的名稱是<span><?php echo $_SESSION['teacher_name'] ?></span></h1>
       <p>以下藝術品已被管埋</p>
-      <a class="btn btn-primary" href="createartworkrk.php" role="button">增新學生的藝術品</a>
       <br><br>
-      <table class="table">
-         <thead>
-            <tr>
-               <th>學生姓名</th>
-               <th>城市</th>
-               <th>國籍</th>
-               <th>排行</th>
-               <th>作品</th>
-               <th>編輯/刪除</th>
-            </tr>
-         </thead>
-         <tbody>
-            <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $database = "hkitprojact";
-
-            // Create connection
-            $connection = new mysqli($servername, $username, $password, $database);
-
-            //Check connection
-            if ($connection->connect_error){
-               die("Connection failed: " . $connection->connect_error);
-            }
-
-            // read all row from database table
-            $sql = "SELECT * FROM artwork_ranking";
-            $result = $connection->query($sql);
-
-            if (!$result) {
-               die("Invalid query: " . $connection->error);
-            }
-            // read data of each row
-            while($row = $result->fetch_assoc()){
-               echo "
-               <tr>
-               <td>$row[studentname]</td>
-               <td>$row[city]</td>
-               <td>$row[citizenship]</td>
-               <td>$row[ranking]</td>
-               <td>$row[artworkname]</td>
-              <td>
-                  <a class='btn btn-primary btn-sm' href='/editartworkrk.php?studentname=$row[studentname]'>Edit</a>
-                  <a class='btn btn-danger btn-sm' href='/deleteartworkrk.php?studentname=$row[studentname]'>Delete</a>
-              </td>
-            </tr> 
-               ";
-            }
-
-            ?>
-
-         
-         </tbody>
-      </table>
       <a href="logout.php" class="button button1">logout</a>
    </div>
 

@@ -13,6 +13,7 @@
         position: relative;
          top: 10px;
       }
+      
    </style>
     <header style="background:#2980B9;">
     <meta charset="UTF-8">
@@ -53,8 +54,6 @@
             </tr>
     </table>  
   </body>
-     <footer>
     </div>
     <?php include('footer.php'); ?>
-
 </html>

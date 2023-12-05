@@ -3,8 +3,7 @@ include ('./connect.php');
 if(isset($_POST['submit'])) {
     $username=$_POST['username'];
     $email=$_POST['email'];
-    $artworkname=$_POST['artworkname'];
-    $image=$_FILES['file'];
+    $course=$_FILES['course'];
     //echo $username;
     //echo "<br>";
     //echo $email;
@@ -70,21 +69,20 @@ if(isset($_POST['submit'])) {
     <link rel="stylesheet" href="css/all.css">  
 </head>
 <body>
-<section style="background:#2980B9;">
-        <a><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter">學生作品數據</strong>
+        <a><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">學生作品數據</strong>
+        </section>
       </header>
+      <section style="background:#2980B9;">
     <?php include('header.php'); ?>
-    </section>
+        </section>
     <br>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
     <style>
         img{
             width:100px;
         }
     </style>
 </head>
-
 <body>
 <h1 class="text-center my-4">學生上傳的作品</h1>
     <div class="container mt-5 d-flex justify-content-center">

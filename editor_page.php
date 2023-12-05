@@ -39,8 +39,15 @@ if(!isset($_SESSION['editor_name'])){
 
         h2{
          position: relative;
-         right: -750px;
+         right: -700px;
          font-size: 30px;   
+         height: 170px;
+        }
+
+        .button{
+         position: relative;
+         right: -730px;
+
         }
 </style>
     <header>
@@ -51,7 +58,7 @@ if(!isset($_SESSION['editor_name'])){
     <link rel="stylesheet" href="css/all.css">  
 </head>
 <body>
-        <a href="index.php"><img src="images/artwork_logos_soldier.png" width="60" height="70"></a><strong class="animate-charcter">編輯者頁面</strong>
+        <a href="index.php"><img src="images/hkit-removebg-preview.png" width="60" height="70"></a><strong class="animate-charcter">編輯者頁面</strong>
         </section>
       </header>
 
@@ -68,10 +75,9 @@ if(!isset($_SESSION['editor_name'])){
    <div class="content">
       <h2>歡迎登入<span>編輯者頁面</span></h2>
       <h1>welcome <span><?php echo $_SESSION['editor_name'] ?></span></h1>
-      <p>this is an editor page</p>
-      <a href="display.php" class="button button1">檢視學生作品</a>
-      <a href="Artworks ranking.php" class="button button1">作品排行榜</a>
-      <a href="logout.php" class="button button1">logout</a>
+      <a class = "button"href="display.php" class="button button1">檢視學生作品</a>
+      <a class = "button" href="Artworks ranking.php" class="button button1">作品排行榜</a>
+      <a class = "button" href="logout.php" class="button button1">logout</a>
    </div>
 
 </div>
