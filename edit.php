@@ -103,7 +103,7 @@ else {
 </head>
 <body>
     <div class="container my-5">
-        <h2>New Client</h2>
+        <h2>編輯帳戶</h2>
 
         <?php
         if (!empty($errorMessage)) {

@@ -19,8 +19,8 @@ if(!isset($_SESSION['admin_name'])){
          padding: 0;
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
-         height: 100vh;
-         overflow: hidden;    
+         height: 140vh;
+         overflow: visible;  
          }  
 
       h1{
