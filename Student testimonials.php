@@ -7,6 +7,7 @@
          padding: 0;
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
+         overflow: visible; 
       }
 
       h5{
@@ -49,7 +50,7 @@
         <th class="artphoto"><img src="images/jp2.PNG" alt="Lorem ipsum dolor sit amet"></th>
         <td class = "stuphoto">
           <img class ="human" src="images/human (2).png" alt="Lorem ipsum dolor sit amet">
-          <h5 class = "stuname">Studnet Name : John</h5>
+          <h5 class = "stuname">學生姓名 : 盧家豪</h5>
           <p align="left">藝術是我生命中不可或缺的一部分。透過藝術創作，我可以表達自己內心深處的情感和思想，將我的想法轉化為視覺或聽覺的形式。每一次創作都是一段探索和發現的旅程，讓我更加了解自己和周遭的世界。
 
 藝術讓我學會欣賞美的事物，從日常生活中的細節中發現美的存在。透過觀察和感受，我學會了如何捕捉光影、色彩和形狀，並將它們轉化為創作的靈感。藝術教會了我更深層的觀察和感知能力，讓我對世界充滿好奇和敏感。
@@ -71,7 +72,7 @@
         <td class = "stuphoto">
           <br>
           <img class ="human" src="images/human (3).png" alt="Lorem ipsum dolor sit amet">
-          <h5 class = "stuname">Studnet Name : Jill</h5>
+          <h5 class = "stuname">學生姓名 : 張鈺婷</h5>
           <p align="left">作為一個藝術品學生，我想分享一些關於藝術學習的感言。
 
 藝術是對生活的詮釋，一種獨特的語言，能夠觸動人心，傳達情感和思想。透過學習藝術，我學會了如何表達自己，找到自己的聲音，並且在創作中找到一種自由和自信。藝術讓我不僅僅成為觀察者，更成為創作者，能夠以自己獨特的方式與世界互動。

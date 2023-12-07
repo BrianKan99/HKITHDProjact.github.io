@@ -67,11 +67,11 @@ if(!isset($_SESSION['Username']))
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td><h4>Arkwork Name : Subjective Objects<br><br>Student Name: Ms. Gloria Poon</h4><br></td>
+    <td><h4>作品名稱 : Subjective Objects<br><br>學生姓名: Ms. Gloria Poon</h4><br></td>
     <td>&nbsp;</td>
-    <td><h4>Arkwork Name : Baxter is Hungry<br><br>Student Name: Ms. Isabella Yeung</h4><br></td>
+    <td><h4>作品名稱 : Baxter is Hungry<br><br>學生姓名: Ms. Isabella Yeung</h4><br></td>
     <td>&nbsp;</td>
-    <td><h4>Arkwork Name : Abstract 3D illustration artifacts<br><br>Student Name: Ms. Debbie Yuen</h4><br></td>
+    <td><h4>作品名稱 : Abstract 3D illustration artifacts<br><br>學生姓名: Ms. Debbie Yuen</h4><br></td>
   </tr>
 </table>  
     </ul> 
