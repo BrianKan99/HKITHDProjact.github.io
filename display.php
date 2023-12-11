@@ -59,8 +59,11 @@ if(isset($_POST['submit'])) {
          padding: 0;
          font-family: montserrat;
          background: linear-gradient(120deg,#2980b9, #8e44ad);
-         height: 190vh;   
+         height: 200vh;   
          } 
+         img{
+            width:100px;
+        }
 </style>
     <header>
     <meta charset="UTF-8">
@@ -77,12 +80,6 @@ if(isset($_POST['submit'])) {
     </section>
     <br>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <style>
-        img{
-            width:100px;
-        }
-    </style>
 </head>
 
 <body>
@@ -91,10 +88,10 @@ if(isset($_POST['submit'])) {
     <table class="table table-bordered w-50">
   <thead class="table-dark">
     <tr>
-      <th scope="col">Student Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">Artwork Name</th>
-      <th scope="col">Artwork File</th>
+      <th scope="col">學生姓名</th>
+      <th scope="col">電子郵件</th>
+      <th scope="col">作品名稱</th>
+      <th scope="col">藝術品文件</th>
     </tr>
   </thead>
   <tbody>

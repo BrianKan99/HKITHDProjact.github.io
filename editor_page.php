@@ -58,7 +58,7 @@ if(!isset($_SESSION['editor_name'])){
     <link rel="stylesheet" href="css/all.css">  
 </head>
 <body>
-        <a href="index.php"><img src="images/hkit-removebg-preview.png" width="60" height="70"></a><strong class="animate-charcter">編輯者頁面</strong>
+        <a href="index.php"><img src="images/hkit-removebg-preview.png" width="90" height="90"></a><strong class="animate-charcter">編輯者頁面</strong>
         </section>
       </header>
 
