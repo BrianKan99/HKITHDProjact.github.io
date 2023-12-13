@@ -27,6 +27,11 @@ if(!isset($_SESSION['Username']))
         position: relative;
          top: 10px;
       }
+      iframe{
+        position: relative;
+        top: -50px;
+        left: 450px;
+      }
    </style>
 </head>
 <body>
@@ -65,6 +70,10 @@ if(!isset($_SESSION['Username']))
     <td class = "photo"><a class="spotlight" href="images/9.png" data-button="Click Me to Learn more!" data-button-href="https://abduzeedo.com/exploring-bauhaus-influence-3d-illustration" data-description="This art collection seamlessly translates historical artistry into a contemporary visual language, exploring the harmonious structures of basic 3D shapes. The compositions, confined to square areas, evoke a sense of organized tranquility through meticulous placement. Inspired by Bauhaus architecture, where form follows function, each line and element serve a purpose. The Color Theory section takes viewers on a vibrant journey through abstract swirls, showcasing the power of color to captivate and evoke emotions. The Less is More section embodies minimalist aesthetics, resembling ceramic sculptures that tell narratives through simplicity. These artworks serve as a bridge between the past and the future, incorporating modern technology.">
       <img src="images/9.png" alt="Abstract 3D illustration artifacts"></a>
   </tr>
+  <iframe width="950" height="500" src="https://www.youtube.com/embed/x03gXP9Hy_o">
+</iframe>
+<br>
+<br>
   <tr>
     <td>&nbsp;</td>
     <td><h4>作品名稱 : Subjective Objects<br><br>學生姓名: Ms. Gloria Poon</h4><br></td>
